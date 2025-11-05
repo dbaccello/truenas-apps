@@ -8864,6 +8864,58 @@
                 }
             ]
         },
+        "jellyfin-clone": {
+            "app_readme": "<h1>Jellyfin Clone</h1> <p><a href=\"https://jellyfin.org/\">Jellyfin</a> is a Free Software Media System that puts you in control of managing and streaming your media.</p>",
+            "categories": [
+                "media"
+            ],
+            "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://jellyfin.org/",
+            "location": "/__w/apps/apps/trains/community/jellyfin",
+            "latest_version": "1.2.16",
+            "latest_app_version": "10.11.2",
+            "latest_human_version": "10.11.2_1.2.16",
+            "last_update": "2025-11-05 13:59:16",
+            "name": "jellyfin-clone",
+            "recommended": false,
+            "title": "Jellyfin Clone",
+            "maintainers": [
+                {
+                    "email": "dev@truenas.com",
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/"
+                }
+            ],
+            "tags": [
+                "entertainment",
+                "movies",
+                "series",
+                "tv",
+                "media",
+                "streaming"
+            ],
+            "screenshots": [
+                "https://media.sys.truenas.net/apps/jellyfin/screenshots/screenshot1.png",
+                "https://media.sys.truenas.net/apps/jellyfin/screenshots/screenshot2.png"
+            ],
+            "sources": [
+                "https://hub.docker.com/r/jellyfin/jellyfin",
+                "https://jellyfin.org/"
+            ],
+            "icon_url": "https://media.sys.truenas.net/apps/jellyfin/icons/icon.svg",
+            "capabilities": [],
+            "run_as_context": [
+                {
+                    "description": "Jellyfin runs as any non-root user.",
+                    "gid": 568,
+                    "group_name": "jellyfin",
+                    "uid": 568,
+                    "user_name": "jellyfin"
+                }
+            ]
+        },
         "pgadmin": {
             "app_readme": "<h1>pgAdmin</h1> <p><a href=\"https://github.com/pgadmin-org/pgadmin4\">pgAdmin</a> is the most popular and feature rich Open Source administration and development platform for PostgreSQL</p>",
             "categories": [
